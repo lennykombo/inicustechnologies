@@ -11,12 +11,12 @@ const Mobilenav = ({ scrollToSection }) => {
   return (
     <div className="sm:hidden bg-gray-900 text-white py-4 px-4">
       <div className="flex justify-between items-center">
-        <img src={logo} alt="Logo" className="h-8" />
+        <img src={logo} alt="Logo" className="h-16" />
         <button className="text-white" onClick={toggleMenu}>
           {isOpen ? (
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
+              className="h-10 w-10"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -31,7 +31,7 @@ const Mobilenav = ({ scrollToSection }) => {
           ) : (
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
+              className="h-10 w-10"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
