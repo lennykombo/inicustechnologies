@@ -5,6 +5,9 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
+import Services from './components/Services';
+import Quote from './components/Quote';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -18,7 +21,7 @@ function App() {
       text2: "Unlock Limitless Possibilities: Elevate Your Online Presence with Expert Web Application Development!", 
     },
     { 
-      text1: "Brandind and advertisement",
+      text1: "Branding and advertisement",
       text2: "Crafting Irresistible Brands: Transforming Vision into Impactful Advertisement Strategies!", 
     },
   ]
@@ -52,7 +55,16 @@ const [ playstatus, setPlaystatus ] = useState(false);
       <About />
     </section>
     <section id='' className=''>
+      <Services/>
+    </section>
+    <section>
       <Projects/>
+    </section>
+    <section>
+      <Quote/>
+    </section>
+    <section className='bg-white'>
+      <Contact />
     </section>
     </div>
   );
