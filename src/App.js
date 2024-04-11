@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Services from './components/Services';
 import Quote from './components/Quote';
 import Contact from './components/Contact';
+import Mobilenav from './components/Mobilenav';
 
 function App() {
 
@@ -39,31 +40,39 @@ useEffect(() => {
 const [ herocount, setHerocount ] = useState(2);
 const [ playstatus, setPlaystatus ] = useState(false);
 
+const scrollToSection = (id) => {
+  const section = document.getElementById(id);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+};
+
   return (
     <div className="App">
-    <section id='heros' className=''>
+    <Mobilenav className='' scrollToSection={scrollToSection} />
+    <section id='heros' className="hidden sm:block">
      <Background playstatus={playstatus} herocount={herocount} className='' />
-     <Navbar className=''/>
-     <Hero 
+     <Navbar className='' scrollToSection={scrollToSection} />
+     <Hero
        setPlaystatus={setPlaystatus}
         heroData={heroData[herocount]}
         herocount={herocount}
         setHerocount={setHerocount}
         playstatus={playstatus} />
     </section>
-    <section id='' className='bg-gray-200'>
+    <section id='about' className='bg-gray-200'>
       <About />
     </section>
-    <section id='' className=''>
+    <section id='services' className=''>
       <Services/>
     </section>
-    <section>
+    <section id='projects'>
       <Projects/>
     </section>
-    <section>
+    <section id='quotation'>
       <Quote/>
     </section>
-    <section className='bg-white'>
+    <section id='contact' className='bg-white'>
       <Contact />
     </section>
     </div>

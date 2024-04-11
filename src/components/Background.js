@@ -1,11 +1,11 @@
 import React from 'react'
 import './Background.css'
 import video1 from '../assets/video1.mp4'
-import video2 from '../assets/video2.mp4'
+//import video2 from '../assets/video2.mp4'
 import image1 from '../assets/applic.jpg'
 import image2 from '../assets/robot.jpg'
 import image3 from '../assets/plan.jpg'
-import image4 from '../assets/mobile.jpg'
+//import image4 from '../assets/mobile.jpg'
 
 const Background = ({ playstatus, herocount}) => {
  

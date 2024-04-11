@@ -7,8 +7,8 @@ const Projects = () => {
   return (
     <div className='min-h-screen px-6 py-6 flex flex-col items-center bg-black'>
       <p className='text-center text-4xl font-semibold font-outfit text-white mt-5'>Projects</p>
-      <div className='flex flex-col md:flex-row justify-center md:justify-between items-center px-6 py-4 mt-4'>
-        <div className='w-full md:w-1/3 border-dotted border-2 flex flex-col p-5 gap-2 rounded-xl border-white m-5 items-center'>
+      <div className='flex flex-col md:flex-col md:w-full justify-center md:justify-between items-center px-6 py-4 mt-4'>
+        <div className='w-full md:w-1/2 border-dotted border-2 flex flex-col p-5 gap-2 rounded-xl border-white m-5 items-center'>
           <div><CgWebsite color='white' size={60} /></div>
           <div className="font-bold text-xl mb-2 text-white">Websites</div>
           <div className="px-6 py-4">
@@ -18,7 +18,7 @@ const Projects = () => {
             View Projects
           </button>
         </div>
-        <div className='w-full md:w-1/3 border-dotted border-2 flex flex-col p-5 gap-2 rounded-xl border-white m-5 items-center'>
+        <div className='w-full md:w-1/2 border-dotted border-2 flex flex-col p-5 gap-2 rounded-xl border-white m-5 items-center'>
           <div><FaMobileRetro color='white' size={60} /></div>
           <div className="font-bold text-xl mb-2 text-white">Mobile Applications</div>
           <div className="px-6 py-4">
@@ -28,7 +28,7 @@ const Projects = () => {
             View Projects
           </button>
         </div>
-        <div className='w-full md:w-1/3 border-dotted border-2 flex flex-col p-5 gap-2 rounded-xl border-white m-5 items-center'>
+        <div className='w-full md:w-1/2 border-dotted border-2 flex flex-col p-5 gap-2 rounded-xl border-white m-5 items-center'>
           <div><GrSystem color='white' size={60} /></div>
           <div className="font-bold text-xl mb-2 text-white">Web Systems</div>
           <div className="px-6 py-4">

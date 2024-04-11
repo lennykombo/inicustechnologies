@@ -1,0 +1,10 @@
+/* Enable scroll snap for sections */
+section {
+    scroll-snap-type: y mandatory;
+  }
+  
+  /* Define how sections should snap */
+  section {
+    scroll-snap-align: start; /* Adjust alignment as needed */
+  }
+  

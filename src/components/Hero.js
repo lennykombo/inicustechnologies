@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './Hero.css'
 import arrow from '../assets/arrow_btn.png'
 import play from '../assets/play_icon.png'
@@ -12,7 +12,7 @@ const Hero = ({ heroData, setPlaystatus, herocount, setHerocount, playstatus }) 
             <p className='text-5xl font-bold leading-10 mb-10'>{heroData.text1}</p>
             <p className='max-w-96 text-xl font-outfit leading-7'>{heroData.text2}</p>
         </div>
-        <div className='flex items-center gap-3 mb-5 py-2 px-2 border w-1/5 mt-4 cursor-pointer justify-between bg-white rounded-full'>
+        <div className='flex items-center gap-3 mb-5 py-2 px-2 border w-1/5 md:w-1/2 mt-4 cursor-pointer justify-between bg-white rounded-full'>
             <p className='text-black text-md font-sm'>Explore the features</p>
             <img src={arrow} alt='' style={{width:"30px"}} />
         </div>
