@@ -11,9 +11,9 @@ const Quote = () => {
             </video>
             <div className='absolute sm:top-7 lg:top-28 left-10 flex flex-col p-4' style={{ width:"90%" }}>
                 <div><p className='sm:text-2xl sm:mb-5 lg:text-5xl w-4/6 mb-10 font-outfit text-white text-center'>We are more than happy to work with you</p></div>
-                <div className='sm:flex-col lg:flex justify-between'>
+                <div className='sm:flex-col justify-between'>
                     <p className='sm:w-full lg:w-3/4 leading-8 text-white font-outfit'>Every project at Innicus innovations begins with a deep dive into understanding our clients' goals, challenges, and target audience. Our iterative approach ensures transparency, flexibility, and continuous improvement throughout the project lifecycle.</p>
-                    <div className="mt-6">
+                    <div className="mt-10">
               <button type="submit" className="inline-block py-5 px-6 text-lg leading-6 font-semibold text-white bg-yellow-600 hover:bg-yellow-700 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">ASK FOR A QUOTATION</button>
             </div>
                 </div>

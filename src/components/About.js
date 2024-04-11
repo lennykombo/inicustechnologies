@@ -13,7 +13,7 @@ const About = () => {
                 <img src={mobile} alt='' className='w-1/2 h-60 rounded-lg absolute top-40 right-0' />
                 <img src={webdesign} alt='' className='w-1/2 rounded-lg absolute bottom-10 left-5' />
                 </div>
-                <div className='relative justify-center flex w-full sm:w-1/2 md:w-full h-full my-10'>
+                <div className='relative justify-center flex w-full sm:w-1/2 md:w-full lg:w-1/2 h-full my-10'>
   <div className='flex flex-col w-full'>
     <p className='text-4xl sm:text-5xl text-center leading-10 sm:leading-12 font-md font-outfit'>About Us</p>
     <p className='text-lg sm:text-xl text-center font-outfit leading-7 px-4 mt-10'>
