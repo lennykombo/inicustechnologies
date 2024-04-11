@@ -11,9 +11,9 @@ const Contact = () => {
         <div className='flex flex-col sm:flex-row w-full items-center gap-4'>
   <div className='w-full sm:w-1/2 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8'>
     <div>
-      <p className='text-4xl font-outfit font-semibold text-center'>For more information contact us</p>
       <p className='text-center leading-5 mt-5 mb-5 text-lg'>We bring your vision to life.</p>
       <p className='text-center mb-5'> Let's embark on this journey together and create something extraordinary. </p>
+      <p className='text-4xl font-outfit font-semibold text-center'>For more information contact us</p>
       <div className='flex gap-5 justify-center mt-3'>
         <div>
           <p>Tell: </p>
