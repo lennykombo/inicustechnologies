@@ -30,7 +30,7 @@ const Projects = () => {
             'imageUrl': web
         },
         {
-            'title':"Socialmedia Marketing",
+            'title':"Social media Marketing",
             'content':" we are experts in crafting dynamic social media strategies tailored to your brand's unique voice and objectives. Whether you're looking to increase brand awareness, drive website traffic, or boost sales, we've got you covered.",
             'imageUrl': socials
         },
