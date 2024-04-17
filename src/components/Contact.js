@@ -13,9 +13,9 @@ const Contact = () => {
    const handlesubmit = (e) => {
     e.preventDefault();
 
-    const serviceId = process.env.REACT_APP_SERVICEID;
-    const templateId = process.env.REACT_APP_TEMPLATEID;
-    const publicKey = process.env.REACT_APP_PUBLICKEY;
+    const serviceId = 'service_v1nanom';
+    const templateId = 'template_8mxw6e9';
+    const publicKey = 'wXr0wpdPSDMqF34_7';
 
     const templateParams = {
         from_name: name ,
